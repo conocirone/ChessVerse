@@ -1,0 +1,76 @@
+
+POST http://127.0.0.1:8000/backend/login/
+Content-Type: application/json
+
+{
+    
+    "username": "adminerdffdrd",
+    "password": "admin"
+    
+}
+
+###
+
+POST http://localhost:8000/signup/
+Content-Type: application/json
+
+{
+    
+    "username": "test1",
+    "password": "test1",
+    "eloReallyBadChess": 1600
+}
+
+
+###
+
+POST http://127.0.0.1:8000/backend/signout/
+Content-Type: application/json
+csrftoken: HnPlYdKD08NVOaM4fuGeKK8FUTKH8FsQ
+
+{
+    "csrftoken": "HnPlYdKD08NVOaM4fuGeKK8FUTKH8FsQ"
+}
+
+###
+
+POST http://127.0.0.1:8000/backend/login/
+Content-Type: application/json
+
+{
+    "username": "peppecasa",
+    "password": "ciao1234"
+}
+
+###
+GET http://127.0.0.1:8000/backend/get_daily_leaderboard/
+Content-Type: application/json
+
+{
+
+}
+
+###
+GET http://127.0.0.1:8000/backend/get_weekly_leaderboard/
+Content-Type: application/json
+
+{
+
+}
+
+###
+GET http://127.0.0.1:8000/backend/check_start_daily?username=ccirone
+Content-Type: application/json
+
+{
+    "username": "ccirone"
+}
+
+###
+
+GET http://127.0.0.1:8000/backend/get_multiplayer_leaderboard/
+Content-Type: application/json
+
+{
+
+}

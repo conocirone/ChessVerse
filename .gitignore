@@ -1,0 +1,48 @@
+# app
+## https certs for local testing
+code/app/cert/
+
+# editor
+##vscode
+.vscode/
+
+# languages
+## node/js
+build/
+coverage/
+dist/
+node_modules/
+
+
+# env/private
+.env
+
+
+# logging data
+prometheus/
+prometheus/prometheus.env
+prometheus/prometheus.yaml
+prometheus/wal_data/
+
+# misc
+.idea
+
+# shit
+## mac
+.DS_Store
+## python
+__pycache__/
+
+# ??
+venv/
+
+t4-chessverse/
+
+code/game/.env.development
+code/api/.env.development
+code/game/test/unit/.coverage
+
+
+# certificates
+cert/
+code/app/cert/
