@@ -32,8 +32,3 @@ ChessVerse is an innovative web application that offers a unique twist on classi
 - **Scrum Meetings**: Held 3 times per week 📅
 - **Programming Languages**: Python, JavaScript 💻
 - **Database**: MySQL 🗄️
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
