@@ -1,7 +1,6 @@
 # ChessVerse
 
 University project for software engineering 2023-2024, at University of Bologna. An online ReallyBadChess game.  
-The project's purpose was to create something apparently working; the code, structure and everything here is very ugly.  
 
 ## Install
 
